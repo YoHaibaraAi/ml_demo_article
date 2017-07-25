@@ -1,0 +1,211 @@
+        #line-chart {
+            height:300px;
+            width:800px;
+            margin: 0px auto;
+            margin-top: 1em;
+        }
+        .brand { font-family: georgia, serif; }
+        .brand .first {
+            color: #ccc;
+            font-style: italic;
+        }
+        .brand .second {
+            color: #fff;
+            font-weight: bold;
+        }
+
+          form span{
+          display: inline-block;
+          width: 13rem;
+        }
+        label{
+          font-weight: bold;
+          padding-right: 1rem;
+          margin:0.4rem 0 1rem 0;
+        }
+        input.search{
+          border: 1px solid #aaa;
+          border-radius:0.3rem;
+        }
+        select{
+          width: 6rem;
+          border: 1px solid #aaa;
+          border-radius:0.3rem;
+        }
+        div.search-div{
+          margin-left: 0px;
+          padding: 0px;
+        }
+
+        tbody > tr:hover{
+          background-color:rgba(0,133,222,0.5); 
+          color: #fff;
+        }
+        tbody  td{
+          width:5rem;
+          word-break: break-all;
+        }
+        tbody td:nth-child(6){
+           width:10rem;
+        }
+
+        tbody  td > img,tbody td a > img{
+        	width: 3rem;
+        }
+
+        .modal{
+        	/* position: absolute; */
+        	width:90%;
+        	height:auto;
+        	margin-top:0;
+        	top:10%;
+        }
+		.modal .modal-body{
+			max-height:1000px;
+		}
+		.modal.fade.in{
+			top:10%;
+		}
+
+       
+        div.search-div{
+          margin-left: 0px;
+          padding: 0px;
+        }
+        form span{
+          display: inline-block;
+        }
+        
+        
+       .mp_info_detail img{
+			width:10rem;
+       		border-radius:0.4rem;
+       }
+       .mp_info_detail ul{
+       		width:100%;
+			list-style:none;
+       }
+       .mp_info_detail ul li{
+			margin-top:1rem;
+       		line-height:2rem;
+       }
+        .mp_info_detail ul li span{
+			display:inline-block;
+        	padding:0.1rem 1rem 0.1rem 1rem;
+        	box-sizing:border-box;
+        }
+       .mp_info_detail ul li span:nth-child(1){
+			border:1px solid #ccc;
+       		border-top-left-radius: 0.4rem;
+      	 	border-bottom-left-radius: 0.4rem;
+       		
+       		min-width:8rem;
+       		background:#ddd;
+       }
+ 		.mp_info_detail ul li span:nth-child(2){
+			border:1px solid #ccc;
+ 			border-left:2px solid #aaa;
+       		border-top-right-radius: 0.4rem;
+      	 	border-bottom-right-radius: 0.4rem;
+       		min-width:8rem;
+       		background:#eee;
+       }
+		.gift_info_detail img{
+			width:100%;
+			max-height: 10rem;
+       		border-radius:0.4rem;
+			border:1px solid green;
+       }
+       .gift_info_detail div{
+			word-break:break-all;
+       		line-height:1.5rem;
+       		padding:0 1rem 0.5rem 1rem;
+       		box-sizing:border-box;	  
+       }
+	   .gift_info_detail label{
+			font-weight:bold;
+	   		margin-left:1rem;
+       }
+ 	   .gift_info_detail ul li span:nth-child(1){
+			border:1px solid #ccc;
+       		border-top-left-radius: 0.4rem;
+      	 	border-bottom-left-radius: 0.4rem;
+       		
+       		min-width:5rem;
+       		background:#ddd;
+       }
+       
+       .check_verify li{
+       	display:inline-block;
+       	line-height:3erm;
+       }
+       .check_verify li input{
+			border-radius:0.3rem;
+       }
+
+       .com_info_detail img{
+                  width:100%;
+       }
+       .com_info_detail ul{
+          width:100%;
+      list-style:none;
+       }
+       .com_info_detail ul li{
+      margin-top:1rem;
+          line-height:2rem;
+       }
+        .com_info_detail ul li span{
+      display:inline-block;
+          padding:0.1rem 1rem 0.1rem 1rem;
+          box-sizing:border-box;
+        }
+       .com_info_detail ul li span:nth-child(1){
+      border:1px solid #ccc;
+          border-top-left-radius: 0.4rem;
+          border-bottom-left-radius: 0.4rem;
+          
+          min-width:8rem;
+          background:#ddd;
+       }
+    .com_info_detail ul li span:nth-child(2){
+      border:1px solid #ccc;
+      border-left:2px solid #aaa;
+          border-top-right-radius: 0.4rem;
+          border-bottom-right-radius: 0.4rem;
+          min-width:8rem;
+          background:#eee;
+       }
+        .large{
+          width:20rem;
+        }
+        .method-add{
+          color:green;
+        }
+        .method-del{
+          color:red;
+        }
+
+        .new-role-add div{
+          text-align: center;
+          margin-top:1rem;
+        }
+        .text-align-center{
+          text-align: center;
+        }
+        .role_action_ul{
+           height:20rem;
+           overflow:auto;
+        }
+        .role_action_ul li{
+          margin-top:0.2rem;
+        }
+
+@media (min-width: 768px){
+  .modal{
+    margin-left:-45%;
+  }
+}
+  
+
+
+     
